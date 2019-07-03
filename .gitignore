@@ -1,0 +1,18 @@
+# OS related files
+.DS_STORE
+
+# React directories (dependencies, build output etc.)
+build/
+coverage/
+dist/
+node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Jetbrains IDEs
+.idea/
