@@ -18,7 +18,7 @@ class Header extends Component {
           transitionDuration={1000}
         >
           <div className='hero-content'>
-            <img className='banner' alt='Andrew Jenkins Banner' src={banner} />
+            <img className='banner' alt='Banner' src={banner} />
             <span className='sub-text'>Software Engineer & Designer</span>
           </div>
         </LazyHero>

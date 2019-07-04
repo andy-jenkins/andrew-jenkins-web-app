@@ -7,8 +7,8 @@ class App extends Component {
 
   render() {
     return [
-      <Header />,
-      <Bio />
+      <Header key='header' />,
+      <Bio key='bio' />
     ];
   }
 }

@@ -1,0 +1,52 @@
+@import './variables.scss';
+
+/* Page template.
+-------------------------------------------------- */
+html {
+  min-height: 100%;
+  position: relative;
+}
+
+body {
+  color: $dark-gray;
+  font-family: Lato, 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  margin: 0;
+
+  .segment {
+    padding: 8rem 4rem;
+  }
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+
+/* Scrollbar.
+ ------------------------------------------------- */
+::-webkit-scrollbar {
+  background-color: #F5F5F5;
+  height: 8px;
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #CBCBCB;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #BABABA;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #F5F5F5;
+}
+
+
+/* Selection.
+ ------------------------------------------------- */
+::selection {
+  background: $primary;
+}
