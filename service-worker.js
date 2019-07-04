@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/andrew-jenkins-web-app/precache-manifest.d8dbeb85d132886af885e55b2a4a0a15.js"
+  "/andrew-jenkins-web-app/precache-manifest.3d084a36bffbf83a5d1a47cd4027a451.js"
 );
 
 self.addEventListener('message', (event) => {
