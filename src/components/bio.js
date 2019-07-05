@@ -25,7 +25,7 @@ class Bio extends Component {
         <div className='left'>
           <div className='section'>
             <div className='title'>
-              <FontAwesomeIcon icon={faCode} />
+              <FontAwesomeIcon icon={faCode} className='big-icon' />
               <h1>Software Development</h1>
             </div>
             <div className='paragraph'>
@@ -34,7 +34,7 @@ class Bio extends Component {
           </div>
           <div className='section'>
             <div className='title'>
-              <FontAwesomeIcon icon={faPaintBrush} />
+              <FontAwesomeIcon icon={faPaintBrush} className='big-icon' />
               <h1>Graphic Design</h1>
             </div>
             <div className='paragraph'>

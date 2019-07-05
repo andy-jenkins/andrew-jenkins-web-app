@@ -3,6 +3,39 @@
 @import './page-template.scss';
 @import './variables.scss';
 
+
+/* Generic.
+-------------------------------------------------- */
+button {
+  background-color: $light-gray;
+  border: none;
+  border-radius: 3px;
+  color: $dark-gray;
+  font-size: 0.9rem;
+  font-weight: 600;
+  padding: 10px 20px;
+}
+
+button:focus {
+  outline: 0;
+}
+
+button:hover {
+  background-color: $mid-gray;
+  color: rgba(0,0,0,.8);
+  cursor: pointer;
+}
+
+.big-icon {
+  font-size: 1.8rem;
+  margin-right: 10px;
+}
+
+.button-icon {
+  margin-left: 5px;
+}
+
+
 /* Header component.
 -------------------------------------------------- */
 .header {
@@ -21,6 +54,13 @@
       font-size: 1.6rem;
     }
   }
+}
+
+
+/* Downloads component.
+-------------------------------------------------- */
+.downloads {
+  border-bottom: 1px solid $light-gray;
 }
 
 
@@ -44,11 +84,6 @@
         align-items: center;
         display: flex;
         flex-direction: row;
-
-        svg {
-          font-size: 1.8rem;
-          margin-right: 10px;
-        }
       }
 
       .paragraph {
@@ -67,6 +102,40 @@
     .portrait {
       border-radius: 10px;
       width: 100%;
+    }
+  }
+}
+
+
+/* Social component.
+-------------------------------------------------- */
+.social {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+
+  .item {
+    align-items: center;
+    border: 1px solid $light-gray;
+    border-left: none;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: center;
+    padding-bottom: 50px;
+    padding-top: 50px;
+
+    &:last-child {
+      border-right: none;
+    }
+
+    .top {
+      align-items: center;
+      display: flex;
+    }
+
+    .bottom {
+
     }
   }
 }
