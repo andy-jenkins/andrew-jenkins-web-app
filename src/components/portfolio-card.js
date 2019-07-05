@@ -19,7 +19,7 @@ class PortfolioCard extends Component {
           <div className='sub-title'>{type}</div>
           <div className='paragraph'>{description}</div>
         </div>
-        <div className='content'>
+        <div className='content extra'>
           <div className='date'>
             <FontAwesomeIcon icon={faCalendar} className='icon-left' />
             {date}

@@ -26,7 +26,10 @@ class Portfolio extends Component {
   render() {
     return (
       <div className='portfolio segment'>
-        {this.renderCards()}
+        <h1>Portfolio</h1>
+        <div className='cards'>
+          {this.renderCards()}
+        </div>
       </div>
     );
   }

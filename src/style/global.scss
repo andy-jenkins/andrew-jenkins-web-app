@@ -145,47 +145,60 @@ button:hover {
 -------------------------------------------------- */
 .portfolio {
 
-  .portfolio-card {
-    border: 1px solid $gray-100;
-    border-radius: 5px;
+  .cards {
     display: flex;
-    flex-direction: column;
-    width: 300px;
+    flex-wrap: wrap;
+    justify-content: center;
 
-    .image {
-      border-bottom: 1px solid $gray-100;
-      padding: 15px;
+    .portfolio-card {
+      border: 1px solid $gray-100;
+      border-radius: 5px;
+      display: flex;
+      flex-direction: column;
+      margin: 10px;
+      max-width: 300px;
+      overflow: hidden;
+      width: calc((100% / 3) - 25px);
 
-      img {
-        width: 100%;
-      }
-    }
+      .image {
+        border-bottom: 1px solid $gray-100;
 
-    .content {
-      border-bottom: 1px solid $gray-100;
-      padding: 15px;
-
-      &:last-child {
-        border-bottom: none;
-      }
-
-      .title {
-        font-size: 1.2rem;
-        font-weight: 600;
-        margin-bottom: 5px;
+        img {
+          width: 100%;
+        }
       }
 
-      .sub-title {
-        color: $gray-300;
-        margin-bottom: 10px;
-      }
+      .content {
+        border-bottom: 1px solid $gray-100;
+        flex-grow: 1;
+        padding: 15px;
 
-      .paragraph {
-        color: $gray-500;
-      }
+        &:last-child {
+          border-bottom: none;
+        }
 
-      .date {
-        color: $gray-300;
+        &.extra {
+          flex-grow: 0;
+        }
+
+        .title {
+          font-size: 1.2rem;
+          font-weight: 600;
+          margin-bottom: 5px;
+        }
+
+        .sub-title {
+          color: $gray-300;
+          margin-bottom: 10px;
+        }
+
+        .paragraph {
+          color: $gray-500;
+        }
+
+        .date {
+          color: $gray-300;
+        }
       }
     }
   }
