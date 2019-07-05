@@ -133,9 +133,25 @@ button:hover {
       align-items: center;
       display: flex;
     }
+  }
+}
 
-    .bottom {
 
-    }
+/* Footer component.
+-------------------------------------------------- */
+.footer {
+  align-items: center;
+  background-color: $darkest-gray;
+  color: $white;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 20px;
+
+  .logo {
+    height: 30px;
+  }
+
+  .copyright {
+
   }
 }

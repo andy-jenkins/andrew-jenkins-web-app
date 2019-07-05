@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
 
-import Header from './header';
 import Bio from './bio';
-import Social from './social';
 import Downloads from './downloads';
+import Footer from './footer';
+import Header from './header';
+import Portfolio from './portfolio';
+import Social from './social';
 
 class App extends Component {
 
@@ -13,7 +15,8 @@ class App extends Component {
       <Downloads key='downloads' />,
       <Bio key='bio' />,
       <Social key='social' />,
-      <Bio key='bio' />
+      <Portfolio key='portfolio' />,
+      <Footer key='footer' />
     ];
   }
 }
