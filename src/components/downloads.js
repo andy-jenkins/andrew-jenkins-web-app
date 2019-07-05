@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFilePdf } from '@fortawesome/free-solid-svg-icons';
 
-import cv from '../assets/andrew-jenkins-cv.pdf';
+import cv from '../assets/pdf/andrew-jenkins-cv.pdf';
 
 class Downloads extends Component {
 

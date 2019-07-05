@@ -7,10 +7,10 @@
 /* Generic.
 -------------------------------------------------- */
 button {
-  background-color: $light-gray;
+  background-color: $gray-100;
   border: none;
   border-radius: 3px;
-  color: $dark-gray;
+  color: $gray-600;
   font-size: 0.9rem;
   font-weight: 600;
   padding: 10px 20px;
@@ -21,7 +21,7 @@ button:focus {
 }
 
 button:hover {
-  background-color: $mid-gray;
+  background-color: $gray-200;
   color: rgba(0,0,0,.8);
   cursor: pointer;
 }
@@ -31,7 +31,11 @@ button:hover {
   margin-right: 10px;
 }
 
-.button-icon {
+.icon-left {
+  margin-right: 5px;
+}
+
+.icon-right {
   margin-left: 5px;
 }
 
@@ -60,7 +64,7 @@ button:hover {
 /* Downloads component.
 -------------------------------------------------- */
 .downloads {
-  border-bottom: 1px solid $light-gray;
+  border-bottom: 1px solid $gray-100;
 }
 
 
@@ -116,7 +120,7 @@ button:hover {
 
   .item {
     align-items: center;
-    border: 1px solid $light-gray;
+    border: 1px solid $gray-100;
     border-left: none;
     display: flex;
     flex-direction: column;
@@ -137,11 +141,62 @@ button:hover {
 }
 
 
+/* Portfolio component.
+-------------------------------------------------- */
+.portfolio {
+
+  .portfolio-card {
+    border: 1px solid $gray-100;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+
+    .image {
+      border-bottom: 1px solid $gray-100;
+      padding: 15px;
+
+      img {
+        width: 100%;
+      }
+    }
+
+    .content {
+      border-bottom: 1px solid $gray-100;
+      padding: 15px;
+
+      &:last-child {
+        border-bottom: none;
+      }
+
+      .title {
+        font-size: 1.2rem;
+        font-weight: 600;
+        margin-bottom: 5px;
+      }
+
+      .sub-title {
+        color: $gray-300;
+        margin-bottom: 10px;
+      }
+
+      .paragraph {
+        color: $gray-500;
+      }
+
+      .date {
+        color: $gray-300;
+      }
+    }
+  }
+}
+
+
 /* Footer component.
 -------------------------------------------------- */
 .footer {
   align-items: center;
-  background-color: $darkest-gray;
+  background-color: $gray-600;
   color: $white;
   display: flex;
   justify-content: space-between;
@@ -149,9 +204,5 @@ button:hover {
 
   .logo {
     height: 30px;
-  }
-
-  .copyright {
-
   }
 }

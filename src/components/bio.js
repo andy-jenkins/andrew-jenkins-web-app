@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCode, faPaintBrush } from '@fortawesome/free-solid-svg-icons';
 
-import portrait from '../assets/portrait.jpg';
+import portrait from '../assets/image/portrait.jpg';
 
 class Bio extends Component {
 

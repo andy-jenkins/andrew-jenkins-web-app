@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import logo from '../assets/aj-banner.png';
+import logo from '../assets/image/aj-banner.png';
 
 class Footer extends Component {
 

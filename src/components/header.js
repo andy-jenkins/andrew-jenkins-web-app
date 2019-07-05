@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 
 import LazyHero from 'react-lazy-hero';
 
-import banner from '../assets/aj-banner.png';
-import hero from '../assets/hero.jpg';
+import banner from '../assets/image/aj-banner.png';
+import hero from '../assets/image/hero.jpg';
 
 class Header extends Component {
 

@@ -1,0 +1,79 @@
+[
+  {
+    "name" : "Iona Racing",
+    "type" : "Logo",
+    "url" : "img/portfolio/iona.jpg",
+    "description" : "A logo designed for a sailing team to be used as boat and t-shirt graphics.",
+    "date" : "06/06/2017"
+  },
+  {
+    "name" : "Grow in Grace",
+    "type" : "Logo",
+    "url" : "img/portfolio/growInGrace.jpg",
+    "description" : "Designed for a newly set up business selling hand written prints.",
+    "date" : "08/03/2017"
+  },
+  {
+    "name" : "AJ Design",
+    "type" : "Logo",
+    "url" : "img/portfolio/aj.jpg",
+    "description" : "My own personal logo. Used for business cards, websites and CVs.",
+    "date" : "20/01/2016"
+  },
+  {
+    "name" : "Andrew McAnally Photography",
+    "type" : "Logo",
+    "url" : "img/portfolio/andrewMac.jpg",
+    "description" : "A logo designed for a semi-professional photographer to be used as a copyright watermark on his photographs.",
+    "date" : "14/07/2015"
+  },
+  {
+    "name" : "Andy Gibson Tuition",
+    "type" : "Logo",
+    "url" : "img/portfolio/andyGibson.jpg",
+    "description" : "A logo made for a friend who had taken up drum tuition. Designed to resemble a simplistic drum kit.",
+    "date" : "21/01/2016"
+  },
+  {
+    "name" : "Devine Beauty & Makeup",
+    "type" : "Logo",
+    "url" : "img/portfolio/devineBeauty.jpg",
+    "description" : "This was designed for a recently qualified beauty student looking to gain some experience over summer performing treatments.",
+    "date" : "13/06/2015"
+  },
+  {
+    "name" : "Leah Louise",
+    "type" : "Logo",
+    "url" : "img/portfolio/leahLouise.jpg",
+    "description" : "Created for a friend setting up an online website for selling her various products.",
+    "date" : "30/03/2017"
+  },
+  {
+    "name" : "Maurice Fitzgerald Art",
+    "type" : "Logo",
+    "url" : "img/portfolio/maurice.jpg",
+    "description" : "A logo designed for a growing Dublin artist called Maurice Fitzgerald. Created as a prototype to be used on packaging and branding for a website.",
+    "date" : "14/09/2015"
+  },
+  {
+    "name" : "Framed Lyrics",
+    "type" : "Design",
+    "url" : "img/portfolio/lyrics.jpg",
+    "description" : "A simple A4 design for a christmas or birthday present. Perfect for hanging on the wall.",
+    "date" : "13/12/2014"
+  },
+  {
+    "name" : "Ham Bap Youth",
+    "type" : "Logo",
+    "url" : "img/portfolio/hby.jpg",
+    "description" : "A logo designed for a church band making a CD.",
+    "date" : "18/12/2015"
+  },
+  {
+    "name" : "Krafty Babas",
+    "type" : "Logo",
+    "url" : "img/portfolio/kraftyBabas.jpg",
+    "description" : "Designed for a new business opening a shop selling recycled baby clothes, toys and accessories.",
+    "date" : "25/01/2014"
+  }
+]

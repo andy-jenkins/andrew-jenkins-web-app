@@ -17,13 +17,14 @@ class Social extends Component {
     ];
   }
 
-  // TODO (aj): Add link to external web page.
   static renderVisitButton(link) {
     return (
-      <button>
-        Visit
-        <FontAwesomeIcon icon={faArrowCircleRight} className='button-icon' />
-      </button>
+      <a href={link} target='new'>
+        <button>
+          Visit
+          <FontAwesomeIcon icon={faArrowCircleRight} className='icon-right' />
+        </button>
+      </a>
     );
   }
 
