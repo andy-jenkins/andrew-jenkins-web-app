@@ -83,6 +83,10 @@ p {
     padding-right: 40px;
     width: 60%;
 
+    @media screen and (max-width: $break1) {
+      width: 100%;
+    }
+
     .section {
 
       &:first-child {
@@ -103,6 +107,10 @@ p {
     justify-content: center;
     padding-left: 40px;
     width: 40%;
+
+    @media screen and (max-width: $break1) {
+      display: none;
+    }
 
     .portrait {
       border-radius: 10px;
@@ -199,6 +207,11 @@ p {
       overflow: hidden;
       width: calc((100% / 3) - 25px);
 
+      @media screen and (max-width: $break1) {
+        max-width: 100%;
+        width: 100%;
+      }
+
       .image {
         border-bottom: 1px solid $gray-100;
 
@@ -251,6 +264,10 @@ p {
   flex-direction: row;
   width: 100%;
 
+  @media screen and (max-width: $break1) {
+    flex-direction: column;
+  }
+
   .item {
     align-items: center;
     border: 1px solid $gray-100;
@@ -262,8 +279,16 @@ p {
     padding-bottom: 50px;
     padding-top: 50px;
 
+    @media screen and (max-width: $break1) {
+      border-bottom: none;
+    }
+
     &:last-child {
       border-right: none;
+
+      @media screen and (max-width: $break1) {
+        border-bottom: 1px solid $gray-100;
+      }
     }
 
     .top {

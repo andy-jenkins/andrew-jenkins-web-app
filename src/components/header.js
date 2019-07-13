@@ -11,6 +11,7 @@ class Header extends Component {
     return (
       <div className='header'>
         <LazyHero
+          className='lazy-hero'
           color='#000'
           imageSrc={hero}
           minHeight='100vh'

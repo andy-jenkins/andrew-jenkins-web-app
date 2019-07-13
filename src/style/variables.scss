@@ -1,6 +1,7 @@
 /* Colors.
  ------------------------------------------------- */
 $white:    #FFFFFF !default;
+$gray-000: #F5F5F5 !default;
 $gray-100: #E0E1E2 !default;
 $gray-200: #CACBCD !default;
 $gray-300: #ACACAC !default;
@@ -13,3 +14,10 @@ $blue:     #4183C4 !default;
 $green:    #42C17E !default;
 
 $primary:  $green !default;
+
+
+/* Media.
+ ------------------------------------------------- */
+$break1: 1000px !default;
+$break2: 1200px !default;
+$break3: 1400px !default;

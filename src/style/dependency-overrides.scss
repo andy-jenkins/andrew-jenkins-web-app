@@ -1,5 +1,22 @@
 @import './variables.scss';
 
+
+/* React Lazy Hero.
+ *
+ * Documentation can be found here:
+ * https://github.com/danistefanovic/react-lazy-hero
+ ------------------------------------------------- */
+.lazy-hero {
+
+  .banner {
+    @media screen and (max-width: 1000px) {
+      height: auto;
+      width: 100%;
+    }
+  }
+}
+
+
 /* React Scroll Up Button.
  *
  * Documentation can be found here:

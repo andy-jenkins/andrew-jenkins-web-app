@@ -15,6 +15,18 @@ body {
 
   .segment {
     padding: 8rem 14rem;
+
+    @media screen and (max-width: $break3) {
+      padding: 6rem 10rem;
+    }
+
+    @media screen and (max-width: $break2) {
+      padding: 4rem 6rem;
+    }
+
+    @media screen and (max-width: $break1) {
+      padding: 4rem 2rem;
+    }
   }
 }
 
@@ -22,21 +34,21 @@ body {
 /* Scrollbar.
  ------------------------------------------------- */
 ::-webkit-scrollbar {
-  background-color: #F5F5F5;
+  background-color: $gray-000;
   height: 8px;
   width: 8px;
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #CBCBCB;
+  background-color: $gray-200;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background-color: #BABABA;
+  background-color: $gray-300;
 }
 
 ::-webkit-scrollbar-track {
-  background-color: #F5F5F5;
+  background-color: $gray-000;
 }
 
 
