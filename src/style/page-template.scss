@@ -16,15 +16,15 @@ body {
   .segment {
     padding: 8rem 14rem;
 
-    @media screen and (max-width: $break3) {
+    @media screen and (max-width: $x-large-screen) {
       padding: 6rem 10rem;
     }
 
-    @media screen and (max-width: $break2) {
+    @media screen and (max-width: $large-screen) {
       padding: 4rem 6rem;
     }
 
-    @media screen and (max-width: $break1) {
+    @media screen and (max-width: $medium-screen) {
       padding: 4rem 2rem;
     }
   }

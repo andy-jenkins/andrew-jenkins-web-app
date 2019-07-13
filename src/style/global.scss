@@ -83,7 +83,7 @@ p {
     padding-right: 40px;
     width: 60%;
 
-    @media screen and (max-width: $break1) {
+    @media screen and (max-width: $medium-screen) {
       width: 100%;
     }
 
@@ -108,7 +108,7 @@ p {
     padding-left: 40px;
     width: 40%;
 
-    @media screen and (max-width: $break1) {
+    @media screen and (max-width: $medium-screen) {
       display: none;
     }
 
@@ -207,7 +207,11 @@ p {
       overflow: hidden;
       width: calc((100% / 3) - 25px);
 
-      @media screen and (max-width: $break1) {
+      @media screen and (max-width: $medium-screen) {
+        width: calc((100% / 2) - 25px);
+      }
+
+      @media screen and (max-width: $small-screen) {
         max-width: 100%;
         width: 100%;
       }
@@ -264,7 +268,7 @@ p {
   flex-direction: row;
   width: 100%;
 
-  @media screen and (max-width: $break1) {
+  @media screen and (max-width: $medium-screen) {
     flex-direction: column;
   }
 
@@ -279,14 +283,14 @@ p {
     padding-bottom: 50px;
     padding-top: 50px;
 
-    @media screen and (max-width: $break1) {
+    @media screen and (max-width: $medium-screen) {
       border-bottom: none;
     }
 
     &:last-child {
       border-right: none;
 
-      @media screen and (max-width: $break1) {
+      @media screen and (max-width: $medium-screen) {
         border-bottom: 1px solid $gray-100;
       }
     }
