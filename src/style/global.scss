@@ -1,11 +1,23 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700&display=swap');
 
+@import './dependency-overrides.scss';
 @import './page-template.scss';
 @import './variables.scss';
 
 
 /* Generic.
 -------------------------------------------------- */
+a {
+  background: 0 0;
+  color: $blue;
+  margin: 0 3px;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
 button {
   background-color: $gray-100;
   border: none;
@@ -39,32 +51,24 @@ button:hover {
   margin-left: 5px;
 }
 
-
-/* Header component.
--------------------------------------------------- */
-.header {
-
-  .hero-content {
-    display: flex;
-    flex-direction: column;
-    position: relative;
-
-    .banner {
-      height: 50%;
-    }
-
-    .sub-text {
-      color: $white;
-      font-size: 1.6rem;
-    }
-  }
+h1 {
+  font-size: 1.9rem;
+  font-weight: 600;
 }
 
+h2 {
+  font-size: 1.6rem;
+  font-weight: 600;
+}
 
-/* Downloads component.
--------------------------------------------------- */
-.downloads {
-  border-bottom: 1px solid $gray-100;
+h3 {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+p {
+  font-size: 1.2rem;
+  line-height: 1.8rem;
 }
 
 
@@ -89,11 +93,6 @@ button:hover {
         display: flex;
         flex-direction: row;
       }
-
-      .paragraph {
-        font-size: 1.2rem;
-        line-height: 1.8rem;
-      }
     }
   }
 
@@ -111,31 +110,52 @@ button:hover {
 }
 
 
-/* Social component.
+/* Contact component.
 -------------------------------------------------- */
-.social {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
+.contact {
+  border-top: 1px solid $gray-100;
+}
 
-  .item {
-    align-items: center;
-    border: 1px solid $gray-100;
-    border-left: none;
+
+/* Downloads component.
+-------------------------------------------------- */
+.downloads {
+  border-bottom: 1px solid $gray-100;
+}
+
+
+/* Footer component.
+-------------------------------------------------- */
+.footer {
+  align-items: center;
+  background-color: $gray-600;
+  color: $white;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 20px;
+
+  .logo {
+    height: 30px;
+  }
+}
+
+
+/* Header component.
+-------------------------------------------------- */
+.header {
+
+  .hero-content {
     display: flex;
     flex-direction: column;
-    flex-grow: 1;
-    justify-content: center;
-    padding-bottom: 50px;
-    padding-top: 50px;
+    position: relative;
 
-    &:last-child {
-      border-right: none;
+    .banner {
+      height: 50%;
     }
 
-    .top {
-      align-items: center;
-      display: flex;
+    .sub-text {
+      color: $white;
+      font-size: 1.6rem;
     }
   }
 }
@@ -205,17 +225,31 @@ button:hover {
 }
 
 
-/* Footer component.
+/* Social component.
 -------------------------------------------------- */
-.footer {
-  align-items: center;
-  background-color: $gray-600;
-  color: $white;
+.social {
   display: flex;
-  justify-content: space-between;
-  padding: 30px 20px;
+  flex-direction: row;
+  width: 100%;
 
-  .logo {
-    height: 30px;
+  .item {
+    align-items: center;
+    border: 1px solid $gray-100;
+    border-left: none;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: center;
+    padding-bottom: 50px;
+    padding-top: 50px;
+
+    &:last-child {
+      border-right: none;
+    }
+
+    .top {
+      align-items: center;
+      display: flex;
+    }
   }
 }

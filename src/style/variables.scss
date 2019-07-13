@@ -9,4 +9,7 @@ $gray-500: #5C5C5C !default;
 $gray-600: #252525 !default;
 $black:    #000000 !default;
 
-$primary:    #42C17E !default;
+$blue:     #4183C4 !default;
+$green:    #42C17E !default;
+
+$primary:  $green !default;

@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 
+import ScrollUpButton from 'react-scroll-up-button';
+
 import Bio from './bio';
+import Contact from './contact';
 import Downloads from './downloads';
 import Footer from './footer';
 import Header from './header';
@@ -16,7 +19,9 @@ class App extends Component {
       <Bio key='bio' />,
       <Social key='social' />,
       <Portfolio key='portfolio' />,
-      <Footer key='footer' />
+      <Contact key='contact' />,
+      <Footer key='footer' />,
+      <ScrollUpButton key='scroll-up-button' ContainerClassName='scroll-up-button' />
     ];
   }
 }

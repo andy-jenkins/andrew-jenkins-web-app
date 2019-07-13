@@ -27,6 +27,10 @@ class Portfolio extends Component {
     return (
       <div className='portfolio segment'>
         <h1>Portfolio</h1>
+        <p>
+          A sample of some design work over the years
+          including mostly logos and some more general designs.
+        </p>
         <div className='cards'>
           {this.renderCards()}
         </div>

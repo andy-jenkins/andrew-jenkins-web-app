@@ -16,7 +16,7 @@ class Bio extends Component {
     "After graduating from Queen's University Belfast " +
     "with a First Class Honors Degree in Software Engineering (BEng), " +
     "I joined the industry as a Graduate Software Developer in the Digital Pathology domain. " +
-    "I have since risen through the ranks and am now a Senior Software Engineer " +
+    "I have since changed jobs and am now a Senior Software Engineer " +
     "in the Aerospace/Electrical/Mechanical engineering domain.";
 
   render() {
@@ -28,18 +28,14 @@ class Bio extends Component {
               <FontAwesomeIcon icon={faCode} className='big-icon' />
               <h1>Software Development</h1>
             </div>
-            <div className='paragraph'>
-              {this.softwareDevelopmentBio}
-            </div>
+            <p>{this.softwareDevelopmentBio}</p>
           </div>
           <div className='section'>
             <div className='title'>
               <FontAwesomeIcon icon={faPaintBrush} className='big-icon' />
               <h1>Graphic Design</h1>
             </div>
-            <div className='paragraph'>
-              {this.graphicDesignBio}
-            </div>
+            <p>{this.graphicDesignBio}</p>
           </div>
         </div>
         <div className='right'>
