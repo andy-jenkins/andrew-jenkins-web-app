@@ -79,6 +79,7 @@ p {
   min-height: 300px;
 
   .left {
+    align-self: center;
     padding-right: 40px;
     width: 60%;
 
@@ -97,6 +98,7 @@ p {
   }
 
   .right {
+    align-self: center;
     display: flex;
     justify-content: center;
     padding-left: 40px;
@@ -120,7 +122,24 @@ p {
 /* Downloads component.
 -------------------------------------------------- */
 .downloads {
+  align-items: center;
   border-bottom: 1px solid $gray-100;
+  display: flex;
+  flex-direction: column;
+
+  a {
+    color: $gray-600;
+    transition: color 250ms linear;
+  }
+
+  a:hover {
+    color: $green;
+    transition: color 250ms linear;
+  }
+
+  svg {
+    font-size: 4rem;
+  }
 }
 
 
