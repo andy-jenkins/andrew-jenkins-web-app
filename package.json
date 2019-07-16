@@ -1,7 +1,7 @@
 {
   "name": "andrew-jenkins-web-app",
   "version": "0.1.0",
-  "homepage": "http://andy-jenkins.github.io/andrew-jenkins-web-app",
+  "homepage": "http://www.andrewjenkins.uk",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.19",
