@@ -9,7 +9,7 @@ class Footer extends Component {
       <div className='footer'>
         <img className='logo' alt='Logo' src={logo} />
         <div className='copyright'>
-          &copy; 2019 Andrew Jenkins. All Rights Reserved.
+          &copy; 2020 Andrew Jenkins. All Rights Reserved.
         </div>
       </div>
     );
