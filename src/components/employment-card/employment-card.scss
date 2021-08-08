@@ -1,0 +1,24 @@
+.employment-card {
+  align-items: center;
+  background-color: aquamarine;
+  border-radius: 1rem;
+  display: flex;
+
+  .company-logo {
+    background-color: white;
+    border-radius: 100%;
+    height: 8rem;
+  }
+
+  .employment-info {
+    padding: 0 1rem;
+
+    h3 {
+      margin-bottom: 0.5rem;
+    }
+
+    p {
+      margin-top: 0;
+    }
+  }
+}

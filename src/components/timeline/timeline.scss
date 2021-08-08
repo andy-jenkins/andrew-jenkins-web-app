@@ -1,0 +1,9 @@
+.timeline {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+
+  .timeline-event {
+    margin: 1rem 0;
+  }
+}
